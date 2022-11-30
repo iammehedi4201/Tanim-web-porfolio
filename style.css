@@ -1,0 +1,309 @@
+body
+{
+    font-family:'Ubuntu', sans-serif;
+    margin:0px;
+ 
+}
+.half-width
+{
+    padding: 35px;  
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.half-width h1
+{
+    font-size: 50px;
+    margin-bottom:45px;
+}
+.half-width p
+{
+    color: darkgray;
+    text-align: justify;
+}
+.half-width img
+{
+    width: 100%;
+}
+
+.p-title{
+
+    border-bottom: 2px solid black;
+    font-size: 22;
+
+}
+
+/* Welcome-Section css start from here */
+.welcome-section
+{
+    display: grid;
+    grid-template-columns: repeat(2,40%);
+    grid-template-rows:minmax(150px,auto);
+    grid-gap: 40px;
+    justify-content:center;
+    background-image: url(Images/top-banner.png);
+    background-repeat: no-repeat;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
+
+}
+
+.name-highlight
+{
+    color: orange;
+}
+
+.hire-button
+{   
+    display:inline-block;
+    text-decoration: none;
+    border: 2px solid #f6d365;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border-radius: 5PX;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+/* Dream Area css start from here */
+.dream-area
+{
+    display:grid;
+    grid-template-columns: repeat(2,40%);
+    grid-template-rows: minmax(150px,auto);
+    grid-gap: 40px;
+    justify-content: center;
+    background-image: url(Images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.resume-button
+{
+    display:inline-block;
+    text-decoration: none;
+    border: 2px solid #f6d365;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border-radius: 5PX;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+/* Experince css start from here */
+.experience-area
+{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.experience-heading
+{   
+    font-size: 50px;
+    margin-bottom:45px;
+    margin-left: 180px ;
+   
+}   
+.experience-container
+{
+    display:grid;
+    grid-template-columns: repeat(2,40%);
+    grid-template-rows: minmax(150px,auto);
+    grid-gap: 40px;
+    justify-content: center;
+   
+    
+}
+
+.experience-container h3
+{
+    color: orange;
+}
+
+#full-stack
+{   
+    border-left: 7px solid;
+    border-image:linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+    border-image-slice: 1;
+  
+   
+}
+
+#baby-stack
+{
+    border-left: 7px solid;
+    border-image:linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
+    border-image-slice: 1;
+
+}
+
+/* skill section css start from here */
+
+.my-skill-area
+{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  
+    margin-top: 20px; 
+    padding: 20px;
+}
+.my-skill-area h1
+{
+    font-size: 50px;
+    text-align: center;
+    color:orange ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
+.skill-container
+{
+    display: grid;
+    grid-template-columns: repeat(2,30%);
+    grid-template-rows: minmax(10px,auto);
+    justify-content: center;
+    grid-gap: 30px;
+    text-align: center;
+  
+    
+
+}
+
+.one
+{
+   
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    border-radius: 5px;
+    border: 2px solid;
+}
+.two
+{
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);  
+    border-radius: 5px;
+    border: 2px solid  ;
+}
+.three
+{
+   
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    border-radius: 5px;
+    border: 2px solid  ;
+
+}
+.four
+{
+    background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+    border-radius: 5px;
+    border: 2px solid  ;
+}
+.five
+{
+  
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+    border-radius: 5px;
+    border: 2px solid  ;
+}
+.six
+{
+  
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+    border-radius: 5px;
+    border: 2px solid  ;
+}
+
+/* contact css start from here */
+
+.wrapper{
+    
+    width: 60%; 
+    background-image: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+  }
+  
+  .wrapper .title h1{
+    color:black;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  .contact-form{
+    display: flex;
+  }
+  
+  .input-fields{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+  }
+  
+  .input-fields,
+  .msg{
+    width: 48%;
+  }
+  
+  .input-fields .input,
+  .msg textarea{
+    margin: 10px 0;
+    background: transparent;
+    border: 0px;
+    border-bottom: 2px solid #010f14;
+    padding: 10px;
+    color:black;
+    width: 100%;
+  }
+  
+  .msg textarea{
+    height: 212px;
+  }
+  
+  ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color:black;
+  }
+  ::-moz-placeholder {
+    /* Firefox 19+ */
+    color:black;
+  }
+  :-ms-input-placeholder {
+    /* IE 10+ */
+    color:black;
+  }
+  
+  .btn {
+      background:#CDFBBF;
+      text-align: center;
+      padding: 15px;
+      border-radius: 5px;
+      color: black;
+      cursor: pointer;
+      text-transform: uppercase;
+  }
+  
+  @media screen and (max-width: 600px){
+    .contact-form{
+      flex-direction: column;
+    }
+    .msg textarea{
+      height: 80px;
+    }
+    .input-fields,
+    .msg{
+      width: 100%;
+    }
+  } 
+
+/* footer section css start from here */
+
+footer
+{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+footer p{
+    text-align: center;
+
+}
